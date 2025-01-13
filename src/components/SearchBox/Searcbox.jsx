@@ -1,11 +1,12 @@
 import React from 'react'
-import '../SearchBox/Searchbox.css'
 
 const Searcbox = () => {
   return (
     <div>
-        <input type="search"
-        placeholder='Search Tracking Id...'
+        <input
+        className='border-b-2 border-gray-400 outline-none pe-32 ps-3 font-semibold text-sm'
+        type="search"
+        placeholder='Search / Tracking Id...'
         />
     </div>
   )

@@ -1,0 +1,24 @@
+/* Signup.css */
+
+/* Keyframe animation to slide the form from the top */
+@keyframes slideFromTop {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the animation to the signup overlay */
+  .signup-overlay {
+    animation: slideFromTop 0.6s ease-out forwards; /* Adjust duration as needed */
+  }
+  
+  /* Optional: additional styling for the form */
+  .signup-content {
+    /* Other styles remain as they are */
+  }
+  
